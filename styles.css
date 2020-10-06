@@ -56,26 +56,31 @@ a:hover {
 }
 
 header {
-
-  text-align: center;
-  
-  background-size: cover;
   overflow: hidden;
+  text-align: center;
+  line-height: 1.5;
+  background-size: cover;
   padding-top: 60px;
-  
+  padding-bottom: auto;
 }
 .background{
 
   background: url('images/Small\ pano.jpg') no-repeat top center ;
+  
+  
+  
 }
-.blank{
+
+.blueheader{
 background-color:rgb(2,30,55);
-color: white
+color: white;
+text-align: left;
+font-size:5vw;
+padding-bottom: 0px;
 }
-header {
-  line-height: 1.5;
-}
-header .profile-image {
+
+
+.profile-image {
   
   width: 300px;
   height: 300px;
@@ -140,6 +145,7 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+  background-size: cover;
 }
 
 footer .copyright {
@@ -215,13 +221,18 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
+   
     margin: 40px auto;
+    color: white;
+    background-color:rgb(2,30,55);";
+    
+
   }
 
 
   .Gallery:hover {
     transform: scale(1.2);
+    transition: all .5s;
   }
 
 .title{
@@ -240,5 +251,17 @@ a.social:hover {
   margin: 5%;
   font-family: sans-serif;
   line-height: 0.8;
+}
+.social{
+text-align: center;
+display: inline;
+color: white; 
+justify-content: space-between;
+padding: 10px;
+}
+.list-items{
+
+justify-content: space-between;
+padding: 10px;
 }
 }
