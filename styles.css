@@ -221,12 +221,10 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-   
     margin: 40px auto;
     color: white;
     background-color:rgb(2,30,55);";
     
-
   }
 
 
@@ -253,15 +251,14 @@ a.social:hover {
   line-height: 0.8;
 }
 .social{
-text-align: center;
-display: inline;
-color: white; 
-justify-content: space-between;
-padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
 }
-.list-items{
-
-justify-content: space-between;
-padding: 10px;
+.social:hover{
+color:white;
 }
 }
