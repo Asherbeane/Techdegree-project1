@@ -61,7 +61,7 @@ header {
   line-height: 1.5;
   background-size: cover;
   padding-top: 60px;
-  padding-bottom: auto;
+
 }
 .background{
 
@@ -223,7 +223,7 @@ a.social:hover {
     font-size: 1.3em;
     margin: 40px auto;
     color: white;
-    background-color:rgb(2,30,55);";
+    background-color:rgb(2,30,55);
     
   }
 
